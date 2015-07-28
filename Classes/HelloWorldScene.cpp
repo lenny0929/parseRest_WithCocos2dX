@@ -51,7 +51,7 @@ bool HelloWorld::init()
 
     // Get 範例
     HttpRequest* getRequest = new HttpRequest();
-    getRequest->setUrl("https://api.parse.com/1/classes/sampleTable/qJx3oElFX9");
+    getRequest->setUrl("https://api.parse.com/1/classes/sampleTable/x9luwPXvGT");
     getRequest->setHeaders(header);
     getRequest->setRequestType(HttpRequest::Type::GET);
     getRequest->setResponseCallback(CC_CALLBACK_2(HelloWorld::onHttpRequestGetCompleted, this));
